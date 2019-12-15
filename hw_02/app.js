@@ -40,9 +40,54 @@ console.log (`HW02_Task02.2`);
         alert(`Fail`)
 }
 console.log(`HW02_Task03`);
+    let Day = (prompt(`Enter Day`));
+    Day = parseFloat(Day);
+    switch (Day) {
+        case 1:
+            alert(`Monday`);
+            break;
+        case 2:
+            alert(`Tuesday`);
+            break;
+        case 3:
+            alert(`Wednesday`);
+            break;
+        case 4:
+            alert(`Thursday`);
+            break;
+        case 5:
+            alert(`Friday`);
+            break;
+        case 6:
+            alert(`Saturday`);
+            break;
+        case 7:
+            alert(`Sunday`);
+            break;
+        default:
+            result = prompt(`Error: please enter correct number`)
+    }
+console.log(`HW02_Task04`);
 {
+    let firstMessage = parseFloat(prompt(`Enter first number`)),
+    secondMessage = parseFloat(prompt(`Enter second number`));
+    if (firstMessage > secondMessage)
+    console.log(`max.number ${firstMessage}`);
+    else if (firstMessage === secondMessage)
+    console.log(`equality`);
+    else
+        console.log(`max.number ${secondMessage}`)
+    }
 
-}
+
+
+
+
+
+
+
+    
+    
 
 
 

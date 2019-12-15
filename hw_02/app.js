@@ -67,7 +67,7 @@ console.log(`HW02_Task03`);
         default:
             result = prompt(`Error: please enter correct number`)
     }
-console.log(`HW02_Task04`);
+console.log(`HW02_Task04-05`);
 {
     let firstMessage = parseFloat(prompt(`Enter first number`)),
     secondMessage = parseFloat(prompt(`Enter second number`));
@@ -78,6 +78,61 @@ console.log(`HW02_Task04`);
     else
         console.log(`max.number ${secondMessage}`)
     }
+console.log(`HW02_Task06`);
+{
+    let flatNumber = prompt(`Enter a flat number`);
+    if (flatNumber > 1 && flatNumber <= 20)
+        alert(`you are in the first entrance`);
+    else if (flatNumber >= 21 && flatNumber <= 48)
+        alert(`you are in the second entrance`);
+    else if (flatNumber >= 49 && flatNumber <= 90)
+        alert(`you are in the third entrance`);
+    else
+        alert(`Error, please try again`)
+}
+console.log(`HW02_Task07`);
+{
+    let login = prompt(`Enter login`),
+        password = prompt(`Enter password`);
+    if (login === `ivan` && password === `334455`)
+        alert(`Welcome`);
+    else if (login === `alex` && password === `777`)
+        alert(`Welcome`);
+    else if (login === `petr` && password === `b5678`)
+        alert(`Welcome`);
+    else
+        alert(`Access denied`)
+}
+console.log(`HW02_Task08`);
+{
+    let yearOFBirth = prompt(`Enter your year of birth`),
+        actualYear = 2019,
+        ageLimit = 16;
+    if (actualYear - yearOFBirth >= ageLimit)
+        alert(`Welcome`);
+    else
+        alert(`Access denied`)
+}
+console.log(`HW 02_Task09`);
+{
+    let workExperience = parseFloat(prompt(`Enter your work experience`));
+    if (workExperience >= 0 && workExperience < 3)
+        alert(`your salary allowance = 0 %`);
+    else if (workExperience >= 3 && workExperience < 10)
+        alert(`your salary allowance = 10 %`);
+    else if (workExperience >= 10 && workExperience < 20)
+        alert(`your salary allowance = 20 %`);
+    else if (workExperience >= 20)
+        alert(`your salary allowance = 25 %`)
+}
+console.log(`HW02_Task10`);
+{
+
+}
+
+
+
+
 
 
 

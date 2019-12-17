@@ -125,34 +125,20 @@ console.log(`HW 02_Task09`);
     else if (workExperience >= 20)
         alert(`your salary allowance = 25 %`)
 }
-console.log(`HW02_Task10`);
+console.log(`HW02_Task11`);
+{
+    let order = prompt(`Please make your order`),
+        ageCheck = parseFloat(prompt(`Please enter your age`)),
+        yearsStrongAlcohol = 21,
+        yearsBeerCigarettes = 18;
+    if (order === (`vodka` || `whiskey` || `strong alcohol` && ageCheck >= yearsStrongAlcohol))
+        alert(`Money please, enjoy your booze`);
+    else if (order === (`beer` || `cigarettes` && ageCheck >= yearsBeerCigarettes))
+        alert(`Money please, enjoy your beer / cigarettes`);
+        else
+        alert(`Order declined because of age limit. Please choose other products`);
+    }
+console.log (`HW02_Task12`);
 {
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-

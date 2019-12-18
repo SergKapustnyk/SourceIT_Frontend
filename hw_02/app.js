@@ -140,27 +140,27 @@ console.log(`HW02_Task11`);
     }
 console.log (`HW02_Task12`);
 {
-    let coffeeMachine = parseFloat(prompt(`Please choose your drink`));
+    let coffeeMachine = parseFloat(prompt(`Choose your drink`));
     switch (coffeeMachine) {
         case 1:
-            result = `Espresso`;
+            console.log(`Espresso`);
             break;
         case 2:
-            result = `Americano`;
+            console.log(`Americano`);
             break;
         case 3:
-            result = `Latte`;
+            console.log(`Latte`);
             break;
         case 4:
-            result = `Cappuccino`;
+            console.log(`Cappuccino`);
             break;
         case 5:
-            result = `Hot Chocolate`;
+            console.log(`Hot Chocolate`);
             break;
         default:
-            result = `Error, please make your order correctly`;
-            break;
+            alert(`Error, please choose from 1 to 5 position`);
     }
 }
+
 
 

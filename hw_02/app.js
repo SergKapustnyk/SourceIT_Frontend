@@ -159,6 +159,8 @@ console.log (`HW02_Task12`);
             break;
         default:
             result = `Error, please make your order correctly`;
+            break;
     }
-    }
+}
+
 

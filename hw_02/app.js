@@ -140,5 +140,25 @@ console.log(`HW02_Task11`);
     }
 console.log (`HW02_Task12`);
 {
+    let coffeeMachine = parseFloat(prompt(`Please choose your drink`));
+    switch (coffeeMachine) {
+        case 1:
+            result = `Espresso`;
+            break;
+        case 2:
+            result = `Americano`;
+            break;
+        case 3:
+            result = `Latte`;
+            break;
+        case 4:
+            result = `Cappuccino`;
+            break;
+        case 5:
+            result = `Hot Chocolate`;
+            break;
+        default:
+            result = `Error, please make your order correctly`;
+    }
+    }
 
-}
